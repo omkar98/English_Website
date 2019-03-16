@@ -1,0 +1,102 @@
+/**********COMMON******************/
+
+body{
+	font-family: 'Nunito', sans-serif !important;
+}
+
+
+.navbar{
+	background: linear-gradient(180deg,#0b3e71,rgba(11,65,118,1));
+	background-color: rgba(11,65,118,1);
+	background-repeat: repeat-x;
+}
+/*************Banner Section***************/
+
+.padding-0{
+	padding-right:0;
+	padding-left:0;
+}
+.section-banner{
+	background: #0b3e71;
+	background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d5c9e8' fill-opacity='0.23' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E"),linear-gradient(180deg,#0b3e71,#0d64b0);
+	width: 100%;
+}
+.section-banner .banner-text h1{
+	color:white;
+	font-weight: bolder;
+	padding-top: 40px;
+}
+.section-banner .banner-text h2, .section-banner .banner-text h3 {
+	color: white;
+	line-height: 40px;
+}
+.section-banner .banner-text{
+	padding-bottom: 100px;
+	padding-top: 80px;
+}
+.section-banner .btn{
+	font-size: 20px;
+	padding: 15px 20px;
+	min-width: 320px;
+	border-radius: 98px;
+	cursor: pointer;
+	font-weight: 700;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	margin-top: 60px;
+}
+
+.section-about{
+	padding:40px 0px 10px 0px;
+	color:black;
+}
+.section-about p{
+	font-size: 16px;
+	padding-top: 30px;
+}
+.section-about .box{
+	border:1px solid lavender;
+	padding:10px;
+}
+.section-about img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.section-services{
+	background: whitesmoke;
+	padding:40px;
+}
+.section-services img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+}
+.section-services p{
+	text-align: center;
+}
+.section-app {
+	padding:30px 0px 30px 0px;
+}
+.section-app .btn{
+	background: transparent;
+	border-color: #1caff6;
+	color: #1caff6;
+	/*	display: inline-block;*/
+	font-weight: 700;
+	line-height: 32px;
+	margin: 0 15px 15px 0;
+	padding: 4px 25px!important;
+}
+.section-footer{
+	background: #0b3e71;
+	background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d5c9e8' fill-opacity='0.23' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E"),linear-gradient(180deg,#0b3e71,#0d64b0);
+	width: 100%;
+	color:white;
+	padding:40px 10px 40px 10px;
+}
