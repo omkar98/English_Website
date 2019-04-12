@@ -14,9 +14,6 @@
 
 	</head>
 	<style>
-		body{
-			background: whitesmoke;
-		}
 
 	</style>
 	<body>
@@ -33,13 +30,22 @@
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Sentences</a>
+						<a class="nav-link" href="#">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Words</a>
+						<a class="nav-link" href="#">Daily Use Sentences</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Grammar</a>
+						<a class="nav-link" href="#">Daily Use Words</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Learn Grammar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sentences by Places</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav flex-row my-2 my-lg-0">
