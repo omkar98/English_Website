@@ -1,0 +1,23 @@
+
+body{
+	background: #f0f4f8;
+	font-family:'Nunito';
+}
+nav.bg-dark{
+	background: linear-gradient(90deg,#2eb1ca 50%,#6bc5a4) !important;
+}
+.page-content{
+	padding-top: 30px;
+}
+.page-content .panel{
+	background: white;
+	padding:20px;
+	border:1px solid lightgray;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+.footer{
+	background: #1f2f46;
+	color:white;
+	padding:30px;
+	margin-top: 10px;
+}

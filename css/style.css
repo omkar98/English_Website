@@ -1,0 +1,453 @@
+
+body{
+	background: #f2f2f2;
+	font-family:'Nunito';
+}
+.error{
+	color: indianred;
+}
+
+/*********HEADER******/
+.main-navigation{
+	background: #414b76;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+	margin-top: -35px;
+	border-radius: 0px;
+}
+.main-navigation .nav>li>a:focus, .nav>li>a:hover {
+	text-decoration: none;
+	background-color: transparent !important;
+}
+.main-navigation a{
+	color:lavender;
+}
+/****SIGN UP****/
+#signup .signup-panel{
+	box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+	border-radius: 0px;
+}
+#signup .form-control{
+	border-color: #E0E0E0;
+	border-radius: 0px;
+	height: 36px;
+}
+#signup .btn{
+	padding: 11px 28px;
+	font-size: 14px;
+	line-height: 14px;
+	border-radius: 2px;
+	border: solid 2px transparent;
+	margin: 0 20px 30px 0;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+	box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+	background: #f8a93f;
+}
+
+/***LOGIN***/
+#login .signup-panel{
+	box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+	border-radius: 0px;
+}
+#login .form-control{
+	border-color: #E0E0E0;
+	border-radius: 0px;
+	height: 36px;
+}
+#login .btn{
+	padding: 11px 28px;
+	font-size: 14px;
+	line-height: 14px;
+	border-radius: 2px;
+	border: solid 2px transparent;
+	margin: 0 20px 30px 0;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+	box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+	background: #f8a93f;
+}
+
+/*************SEARCH BIKES*******/
+
+#search-bikes .search-bikes-col{
+	background: white;
+	padding:15px;
+	border:1px solid lavender;
+	border-radius: 0px;
+	box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+}
+
+#search-bikes .search-bikes-col input[type="checkbox"], input[type="radio"]{
+	display: none;
+}
+#search-bikes .search-bikes-col input[type="checkbox"] + .label-text:before{
+	content: "\f096";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing:antialiased;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#search-bikes .search-bikes-col input[type="checkbox"]:checked + .label-text:before{
+	content: "\f14a";
+	color: #2980b9;
+	animation: effect 250ms ease-in;
+}
+#search-bikes .ui-slider-range.ui-corner-all.ui-widget-header {
+	background: #2980b9;
+}
+#search-bikes .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	border: 1px solid #2980b9;
+	background: white;
+	font-weight: normal;
+	color: #454545;
+}
+
+#search-bikes .box{
+	background: white;
+	padding:10px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	margin-bottom: 12px;
+}
+#search-bikes .checkbox label{
+	padding-left: 02px !important;
+}
+#search-bikes h4{
+	border-bottom: 1px solid lavender;
+	padding-bottom: 10px;
+}
+#search-bikes .form-control{
+	border-radius: 0px;
+}
+
+/***********VIEW BIKES*************/
+
+#view-bike .view-bike-box-details{
+	border:1px solid #c2ccd2;
+	padding:10px;
+	background: white;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+#view-bike .btn-number
+{
+	color:white;
+	font-size: 15px;
+	border-radius: 0px;
+	letter-spacing: 0.5;
+	background: gray;
+}
+
+#view-bike #quantity{
+	text-align: center;
+}
+#view-bike #bike-box-image img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#view-bike .view-bike-box-details p{
+	text-align: justify;
+	font-size: 15px;
+}
+#view-bike h4{
+	color:#878787;
+	font-weight: 600;
+}
+#view-bike  #bike_avail_status {
+	padding-top: 10px;
+}
+#view-bike .bike_terms_conditions{
+	border:2px dashed lavender;
+	padding:5px;
+}
+#view-bike .view-bike-box-details .bike_dates{
+	border-radius: 0px;
+	height: 40px;
+}
+#view-bike  .bike_terms_conditions ol li{
+	font-size: 15px;
+}
+#view-bike div#bike_avail_status #error {
+	color: red;
+}
+#view-bike div#bike_avail_status #success {
+	color: green;
+}
+#view-bike #bike-box-image #add_cart{
+	padding: 12px 8px;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+	width: 98%;
+	border: none;
+	float: left;
+	background: #ff9f00;
+	color: #fff;
+	margin-top: -20px;
+}
+#view-bike div#bike-box-image{
+	border:1px solid #c2ccd2;
+	background: white;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	padding:20px;
+}
+
+/*************VIEW CART***********/
+#view-cart input#quantity{
+	/*	width:50px;*/
+	text-align: center;
+}
+#view-cart #empty-cart{
+	color:#484848;
+	padding:10px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+	padding: 40px 0px 40px 0px;
+}
+#view-cart #empty-cart img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#view-cart #empty-cart .btn{
+	padding: 12px 16px 12px 16px;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+	/*	width: 22%;*/
+	border: none;
+	/*	float: left;*/
+	background: #ff9f00;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#view-cart #empty-cart .btn a{
+	color: white;
+	font-weight: 600;
+}
+
+#view-cart #empty-cart h2{
+	text-align: center;
+}
+
+
+
+#view-cart #cart-items{
+	color:#484848;
+	padding:10px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+#view-cart #cart-items .input-group .quantity-left-minus {
+	background: gray;
+	border-radius: 0px;
+	color:white;
+}
+#view-cart #cart-items .input-group .quantity-right-plus {
+	background: gray;
+	border-radius: 0px;
+	color:white;
+}
+#view-cart #cart-price{
+	background: white;
+	padding:10px;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+#view-cart{
+	padding-bottom: 40px;
+}
+#cart-price .btn{
+	border-radius: 0px;
+	padding: 10px;
+
+}
+/*
+#view-cart .cart-items-order {
+padding: 16px 23px;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-justify-content: flex-end;
+-ms-flex-pack: end;
+justify-content: flex-end;
+background: #fff;
+border-top: 1px solid #f0f0f0;
+box-shadow: 0 -2px 10px 0 rgba(0,0,0,.1);
+}
+#view-cart #continue_shopping{
+margin-right: 16px;
+padding: 14px 30px;
+background-color: #fff;
+color: #212121;
+}
+*/
+
+/***************MY ORDER************/
+#my-order #my-order-container{
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+#my-order #my-order-container #my-order-heading{
+	background-color: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 12px 15px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#my-order-content img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width : 60%;
+}
+#my-order-content h5,#my-order-content h4{
+	text-align: center;
+}
+
+/***************************************************************************************
+RESPONSIVE
+*****************************************************************************************/
+
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+	#view-bike #bike-box-image img{
+		width:80%;
+	}
+	#view-cart #cart-items img{
+		width: 80%;
+	}
+	img.starvatron-logo {
+		width: 18% !important;
+		margin-top: -20px;
+	}
+
+
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	#view-bike #bike-box-image img{
+		width:80%;
+	}
+	#view-cart #cart-items img{
+		width: 80%;
+	}
+
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	#view-bike #bike-box-image img{
+		width:50%;
+	}
+	#view-cart #cart-items img{
+		width: 50%;
+	}
+	img.starvatron-logo {
+		width: 18%;
+		margin-top: -1px;
+	}
+
+
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#view-bike #bike-box-image img{
+		width:100%;
+	}
+	#view-cart #cart-items img{
+		width: 100%;
+	}
+	img.starvatron-logo {
+		width: 18%;
+		margin-top: -20px;
+	}
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/*
+	#view-cart input#quantity{
+	width: 50px;
+}
+	*/
+	#view-bike #bike-box-image img{
+		width:55%;
+	}
+	#view-cart #cart-items img{
+		width: 100%;
+	}
+	img.starvatron-logo {
+		width: 18%;
+		margin-top: -20px;
+	}
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#view-bike #bike-box-image img{
+		width:80%;
+	}
+	#view-cart #cart-items img{
+		width: 100%;
+	}
+	#view-cart input#quantity{
+		width: 70px;
+	}
+	img.starvatron-logo {
+		width: 42%;
+		margin-top: -50px;
+	}
+
+
+
+
+}
