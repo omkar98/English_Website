@@ -30,7 +30,10 @@
 					<a class="nav-link" href="<?php echo site_url('daily-words/list');?>">Daily use Words</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Grammar</a>
+					<a class="nav-link" href="<?php echo site_url('places/list');?>">Places List</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="<?php echo site_url('titles/list');?>">Titles List</a>
 				</li>
 			</ul>
 		</div>
