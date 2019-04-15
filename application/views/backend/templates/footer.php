@@ -44,5 +44,7 @@
 	toastr.info("<?php echo $this->session->flashdata('info'); ?>");
 	<?php } ?>
 </script>
+ <script src="https://cloud.tinymce.com/5/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
 </body>
 </html>

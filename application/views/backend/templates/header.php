@@ -24,7 +24,7 @@
 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Daily use Sentences</a>
+					<a class="nav-link" href="<?php echo site_url('daily-use-sentences/list');?>">Daily use Sentences</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo site_url('daily-words/list');?>">Daily use Words</a>

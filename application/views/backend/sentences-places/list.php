@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class = "panel panel-default">
-					<form method = "post" enctype="multipart/form-data" action="<?php echo site_url('Backend/SentencesPlaces/insert/');?>">
+					<form method = "post" enctype="multipart/form-data" action="<?php echo site_url('Backend/SentencesPlaces/place_insert/');?>">
 						<div class = "row">
 							<div class = "col-md-6">
 								<label>Enter Place Name</label>
@@ -35,7 +35,7 @@
 									<th>Action </th>
 								</tr>
 							</thead>
-							<tbody id = "word_data">
+							<tbody id = "place_data">
 								<?php
 							$i=1;
 							foreach($places_list as $key => $val){
@@ -44,9 +44,9 @@
 							<tr>
 								<td><?php echo $i++; ?></td>
 								<td><?php echo date("F d Y, h:i a", strtotime($date)); ?></td>
-								<td contenteditable class = "update" data-id = "<?php echo $val['id']; ?>" data-column = "english_word"><?php echo $val['place_name']; ?></td>
+								<td contenteditable class = "update" data-id = "<?php echo $val['id']; ?>" data-column = "place_name"><?php echo $val['place_name']; ?></td>
 								<td><img src = "<?php echo base_url(); ?>uploads/images/<?php echo $val['place_image']; ?>" width = "20%"></td>
-								<td><a href = "<?=base_url();?>index.php/Backend/Words/delete/<?php echo $val['id']; ?>" class = "delete" style = "color:orangered;border-bottom:dashed;">Delete</a></td>
+								<td><a href = "<?=base_url();?>index.php/Backend/SentencesPlaces/place_delete/<?php echo $val['id']; ?>" class = "delete" style = "color:orangered;border-bottom:dashed;">Delete</a></td>
 							</tr>
 							<?php 
 							}

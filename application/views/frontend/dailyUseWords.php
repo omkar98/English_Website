@@ -1,72 +1,50 @@
-<section class="page-content">
-  <div class="container">
-    <h2 class="table-heading">Daily Use Words</h2>
-    <div class="main-content">
-
-        <div class="table-responsive">
-          <table class="table" style="text-align: center">
-            <thead style="font-size: 24px">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">English</th>
-                <th scope="col">Hindi</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr><tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr><tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Good Morning</td>
-                <td>Shubh Prabhat</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-end">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </nav>
-    </div>
-  </div>
-</section><!--End Banner-->
+<section class="page-content daily-use-words">
+	<div class="container-fluid">
+		<h2>Spend 5 minutes daily to learn <span style = "color:#00B4DB;"><b>DAILY USE WORDS</b></span></h2>
+		<div class = "panel">
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "box">
+						<table class = "table table-bordered">
+							<tbody>
+								<tr>
+									<th>English Word</th>
+									<th>Hindi Word</th>
+								</tr>
+								<?php foreach($words_list as $row){ 
+	                             if($row['id']%2==1){
+								?>
+								<tr>
+									<td><?php echo $row['english_word']; ?></td>	        
+									<td class = "hindi_lang"><?php echo $row['hindi_word']; ?></td>
+								</tr>    
+								<?php } } ?>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class = "col-md-6">
+					<div class = "box">
+						<table class = "table table-bordered">
+							<tbody>
+								<tr>
+									<th>English Word</th>
+									<th>Hindi Word</th>
+								</tr>
+								<?php foreach($words_list as $row){ 
+	                             if($row['id']%2==0){
+								?>
+								<tr>
+									<td><?php echo $row['english_word']; ?></td>	        
+									<td class = "hindi_lang"><?php echo $row['hindi_word']; ?></td>
+								</tr>    
+								<?php } } ?>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<?php echo $this->pagination->create_links(); ?>
+		</div>
+	</div>
+</section>

@@ -1,8 +1,8 @@
-<!--Start Banner-->
-<section class="section-banner">
+<!--Start Splash-->
+<section class="section-splash">
   <div class="overlay">
     <div class="container-fluid">
-      <div class = "banner-text">
+      <div class = "splash-text">
         <div class = "row">
           <div class = "col-md-12">
             <h1 class = "text-center">A learning curve is essential to <span style = "font-size:52px;">GROWTH</span></h1>
@@ -11,17 +11,17 @@
           </div>
         </div>
         <button class = "btn btn-default">Get Started</button>
-      </div><!--End Banner Text-->
+      </div><!--End Splash Text-->
     </div>
   </div>
-</section><!--End Banner-->
+</section><!--End Splash-->
 
 <section class = "section-about">
   <div class = "container">
     <h2 class = "text-center"><b>About English Guru</b></h2>
     <div class = "row">
       <div class = "col-md-6">
-        <img src = "images/education-online-training-courses-distance-education-flat-vector-illustration.jpg" width="100%">
+       <img src = "<?php echo base_url("images/about-us.jpg"); ?>" width="100%">
       </div>
       <div class = "col-md-6">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -56,23 +56,23 @@
     <h2 class = "text-center"><b>You can improve...</b></span></h2><br><br>
   <div class = "row">
     <div class = "col-md-4">
-      <img src = "images/001-vocabulary.png">
+       <img src = "<?php echo base_url("images/daily-use-words.png"); ?>" width="100%">
       <br>
       <h4 class = "text-center"><b>Learn <span style = "color:
-        #01ab94;">daily words</span></b></h4>
+        #01ab94;">daily use<br> words</span></b></h4>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. </p>
     </div>
     <div class = "col-md-4">
-      <img src = "images/002-seo.png">
+       <img src = "<?php echo base_url("images/daily-use-sentences.png"); ?>" width="100%">
       <br>
-      <h4 class = "text-center"><b>Learn <span style = "color:#f24a77;">daily sentences</span></b></h4>
+      <h4 class = "text-center"><b>Learn <span style = "color:#f24a77;">daily use<br> sentences</span></b></h4>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. </p>
     </div>
 
     <div class = "col-md-4">
-      <img src = "images/003-search.png">
+       <img src = "<?php echo base_url("images/conversations.png"); ?>" width="100%">
       <br>
-      <h4 class = "text-center"><b>Learn <span style = "color:#ffaf11;">English Grammar</span></b></h4>
+      <h4 class = "text-center"><b><span style = "color:#ff6666;">Conversations</span> based on situations</b></h4>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. </p>
     </div>
   </div>
@@ -90,7 +90,7 @@
       <button class = "btn btn-default"><span style = "font-size:32px;"><i class = "fa fa-android"></i></span> &nbsp;Android</button>
     </div>
     <div class = "col-md-4">
-      <img src = "images/vector-modern-flat-design-concept-of-studying-abroad.jpg" width="100%">
+       <img src = "<?php echo base_url("images/android-app.jpg"); ?>" width="100%">
     </div>
   </div>
 </div>

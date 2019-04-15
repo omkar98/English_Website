@@ -1,11 +1,11 @@
 <section class = "page-content">
 	<div class="container">
-		<h4><b>ADD TITLE</b></h4>
+		<h4><b>ADD CHAT TITLE BASED ON PLACES/SITUATIONS</b></h4>
 		<hr>
 		<div class="row">
 			<div class="col-md-12">
 				<div class = "panel panel-default">
-					<form method = "post" action="<?php echo site_url('Backend/SentencesPlaces/insert_title/');?>">
+					<form method = "post" action="<?php echo site_url('Backend/SentencesPlaces/title_insert/');?>">
 						<div class = "row">
 							<div class = "col-md-6">
 								<label>Title Name</label>
@@ -24,7 +24,7 @@
 						<div class = "row">
 							<div class = "col-md-12">
 								<label>Add Chat</label>
-								<textarea class = "form-control" name = "title_code"></textarea>
+								<textarea class = "form-control" name = "title_text" rows = "10"></textarea>
 							</div>
 						</div>
 						<br>
